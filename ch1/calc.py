@@ -6,16 +6,17 @@ def add(a, b):
 def sub(a, b):
     return a - b
 
+
 PI = 3.141592
 
 class Math:
     def solv(self, r):
         return PI * (r ** 2)
 
+
 # 모듈 테스트
-if __name__ == " __main__":
+if __name__ == "__main__":
     print(add(9,5))
     print(sub(9,5))
     m = Math()
     print(m.solv(6))
-    
